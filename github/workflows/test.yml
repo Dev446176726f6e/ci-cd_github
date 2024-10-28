@@ -1,6 +1,6 @@
 name: Test
 on: push
-  jobs:
+jobs:
     lint:
       runs-on: ubuntu-latest
       steps:
@@ -8,4 +8,6 @@ on: push
           uses: actions/checkout@v4.2.2
         - name: Install
           npm ci
+        - name: Lint
+          run: npm run lint
             
