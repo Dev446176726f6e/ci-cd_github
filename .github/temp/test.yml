@@ -16,6 +16,7 @@ jobs:
     strategy:
       matrix:
         node: [18, 20, 22]
+        os: [ubuntu]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
