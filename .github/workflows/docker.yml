@@ -22,4 +22,4 @@ jobs:
         with:
           push: true
           #  i can add this also to github variables.
-          tags: davr0n/ci&cd_github:latest
+          tags: davr0n/ci-cd_github:latest
